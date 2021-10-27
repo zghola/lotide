@@ -19,15 +19,5 @@ const assertArraysEqual = function(actual, expected) {
     }
 };
 
-const middle = function(array) {
-    
-        if(array.length % 2 === 0) {
-          console.log("middle nums when array length is even: " + array[middle - 1]  + " " + array[middle]);
-        } else {
-          console.log("middle num when array length is odd: " + array[middle]);
-        }
-      
-
-}
-middle([1, 2, 3]) // => [2]
-middle([1, 2, 3, 4, 5]) // => [3]
+assertArraysEqual([1,2,2,3], [4,4,3,6])
+assertArraysEqual([1,2,2,3], [1,2,2,3])
