@@ -7,6 +7,20 @@ const assertEqual = function(actual, expected) {
     }
    
 };
-  
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
+const countLetters = function(sentence){
+   const obj={}
+   for(let char of sentence){
+       if (obj[char]){
+       obj[char]+=1
+       } else {
+        obj[char]= 1
+       } 
+       
+
+   }
+        
+    return obj
+
+}
+
+console.log(countLetters("lhl"))
