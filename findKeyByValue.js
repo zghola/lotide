@@ -1,4 +1,4 @@
-const assertEqual = function(actual, expected) {
+/*const assertEqual = function(actual, expected) {
 
     if (actual === expected) {
       console.log(`✅ Assertion Passed: "${actual}" === "${expected}"`);
@@ -26,6 +26,20 @@ const bestTVShowsByGenre = {
   };
   
   assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-  assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+  assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);*/
 
+
+
+const myFn = function() {
+  console.log("I am function.");
+}
+
+myFn.someAttribute = 42;
+console.log(myFn.someAttribute);
+
+function runner(f) {
+  f();
+}
+
+runner(myFn);
   
