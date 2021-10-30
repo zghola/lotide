@@ -10,4 +10,9 @@ const map = function(array, callback) {
     return results;
   }
 const results1 = map(words, word => word[0]);
+
+/*function callback(word) {
+  return word[0]
+}*/
+
 console.log(results1);
