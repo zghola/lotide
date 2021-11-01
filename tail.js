@@ -26,5 +26,4 @@ const assertArraysEqual = function(actual, expected) {
     return  newArray
   }
 
-  const result = tail(["Hello", "Lighthouse", "Labs"]);
-  assertArraysEqual(result, ["Lighthouse", "Labs"])
+  module.exports = tail
